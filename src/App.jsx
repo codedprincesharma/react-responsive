@@ -1,9 +1,11 @@
+import Hero from "./compnent/Hero/hero";
+
 const App = () => {
-  return(
-    <div className="">
-      <h1>hello world</h1>
-    </div>
-  )
+  return (
+    <main>
+      <Hero/>
+    </main>
+  );
 };
 
 export default App;
